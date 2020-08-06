@@ -1,6 +1,4 @@
-@startuml testDiagram
-
-Server -> Client: Hello
-Client -> Server: Hi!
-
+@startuml
+[A] -> [B]
+[B] --_> [C]
 @enduml
